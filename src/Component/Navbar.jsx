@@ -20,7 +20,7 @@ const Navbar = () => {
     <li><a className={navlinkstyle} href="#services">Services</a></li>
     <li><a className={navlinkstyle} href="#review">Reviews</a></li>
 </ul>
-<a href="" onClick={handleclick} className=" hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold text-foreground text-sm font-medium shadow-gold hover:opacity-30 transition"> <IoChatbubbleEllipsesOutline />
+<a href="" onClick={handleclick} className="  sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold text-foreground text-sm font-medium shadow-gold hover:opacity-30 transition"> <IoChatbubbleEllipsesOutline />
 Chat With Us</a>
     </div>
     </div>
