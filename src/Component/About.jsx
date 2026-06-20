@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="about" className="py-32 bg-card/40">
         <div className="w-5/6 mx-auto grid md:grid-cols-2 gap-16 items-center">
-           <div className="relative rounded-3xl overflow-hidden ">
+           <div data-aos="zoom-out-right" className="relative rounded-3xl overflow-hidden ">
             <img src="/service-pressing-CmMpptdy.jpg" alt="professional" width="800" height="800" loading="lazy" className="w-full h-full 1 object-cover"/>
             <div className="absolute bottom-6 left-6 right-6 p-6 rounded-2xl bg-bg/80 backdrop-blur-md border border-gold/20">
             <div className="flex items-center gap-3">

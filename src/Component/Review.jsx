@@ -4,11 +4,11 @@ const Review = () => {
   return (
     <div id="review" className="py-32">
         <div className="w-5/6 mx-auto">
-          <div className="text-center mb-16">
+          <div data-aos="fade-down" className="text-center mb-16">
             <p class="text-gold text-xs tracking-widest uppercase mb-3">Reviews</p>
             <h2 class="font-cormorant text-white text-5xl md:text-6xl">What our clients <span class="text-gold italic">say</span>.</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div data-aos="zoom-out-down" className="grid md:grid-cols-3 gap-6">
             <div className="p-8 rounded-2xl bg-card border border-border">
                 <div className="flex gap-0.5 mb-4">
                     <FaStar className="lucide lucide-star h-3 w-3 fill-gold text-gold" />

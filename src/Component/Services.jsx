@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div id="services" className="py-36 text-white">
       <div className="w-5/6 mx-auto">
-        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+        <div data-aos="fade-down" className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
             <p className="text-gold text-xs tracking-widest uppercase mb-3">
               What We Do
@@ -22,7 +22,7 @@ const Services = () => {
             garment receives meticulous attention.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div data-aos="zoom-out-down" className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="group p-8 rounded-2xl bg-card border border-border hover:border-gold/40 transition-all hover:-translate-y-1 duration-300">
             <div className="h-12 w-12 rounded-xl bg-gold/10 flex items-center justify-center mb-6 group-hover:bg-gold/20 transition">
               <IoShirtOutline className="lucide lucide-sparkles h-6 w-6 text-gold " />
